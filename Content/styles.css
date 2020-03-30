@@ -189,6 +189,10 @@ p.card-description
     font-size: smaller;
 }
 
+img.signup {
+    margin: 2em 0 3em 0;
+}
+
 .twitter-mention-container {
   padding-top: 2px;
   height: 1.6em !important;
