@@ -91,8 +91,22 @@ section.heading-container {
     position: relative;
 }
 
-div.navbar > div.container > div > a {
+div.navbar > div.container > div.nav-item {
+    padding: 0.4em 0.25em;
+}
+
+div.navbar > div.container > div.nav-item > a {
     text-decoration: none;
+}
+
+div.navbar > div.container > div.nav-item.signup {
+    background-color: rgb(35, 57, 140);
+    border-radius: 10px;
+    padding: 0.4em 0.8em;
+}
+
+div.navbar > div.container > div.nav-item.signup > a {
+    color: white !important;
 }
 
 div.logo-container,
