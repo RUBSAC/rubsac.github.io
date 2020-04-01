@@ -189,6 +189,10 @@ div.weighted {
     align-items: flex-end;
 }
 
+div.faded {
+    opacity: 50%;
+}
+
 div.event-question {
     margin-bottom: 1em;
 }
