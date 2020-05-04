@@ -7,16 +7,20 @@ layout: default
     <div class="container">
         {% include title-section.html %}
 
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    <a href="calendar-embedded.html">View this page as a Google Calendar</a>
+                </p>
+            </div>
+        </div>
+
         <div class="bg-white">
             <div class="row">
                 <div class="col-12">
-                    <h2>Future Event<a style="text-decoration: none;" href="calendar-embedded.html">s</a></h2>
+                    <h2>Future Events</h2>
                 </div>
 
-                {% include_relative 2020-05-010203.html %}
-            </div>
-
-            <div class="row">
                 {% include_relative 2020-05-080910.html %}
             </div>
 
@@ -27,11 +31,11 @@ layout: default
             <div class="row">
                 {% include_relative 2020-05-182021.html %}
             </div>
-            
+
             <div class="row">
                 {% include_relative 2020-05-252728.html %}
             </div>
-               
+
             <div class="row">
                 {% include_relative 2020-06-010304.html %}
             </div>
@@ -43,7 +47,7 @@ layout: default
             <div class="row">
                 {% include_relative 2020-06-151718.html %}
             </div>
-            
+
             <br />
             <br />
 
@@ -68,6 +72,10 @@ layout: default
 
             <div class="row faded">
                 {% include_relative 2020-04-242526.html %}
+            </div>
+
+            <div class="row faded">
+                {% include_relative 2020-05-010203.html %}
             </div>
 
         </div>
