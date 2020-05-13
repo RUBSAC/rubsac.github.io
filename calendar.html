@@ -7,76 +7,15 @@ layout: default
     <div class="container">
         {% include title-section.html %}
 
-        <div class="row">
-            <div class="col-12">
-                <p>
-                    <a href="calendar-embedded.html">View this page as a Google Calendar</a>
-                </p>
-            </div>
-        </div>
-
         <div class="bg-white">
             <div class="row">
-                <div class="col-12">
-                    <h2>Future Events</h2>
+                <div class="col-12 center">
+                    <iframe
+                        src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=bmlvM2hjcDhlYm9jZjgzYWJxM3NxNjhnaWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=Z3NmdnZ0N2QzdWVsdmttbjhjdW9yMGxwbjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MWl2dmJkbzc0cnM2Y2tkM3RpbmdiN21iNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%238E24AA&amp;color=%234285F4&amp;color=%237CB342&amp;showTitle=no"
+                        class="calendar-resize" style="border:solid 1px #777" height="600" frameborder="0" scrolling="yes"></iframe>
                 </div>
-
-                {% include_relative 2020-05-111314.html %}
             </div>
-
-            <div class="row">
-                {% include_relative 2020-05-182021.html %}
-            </div>
-
-            <div class="row">
-                {% include_relative 2020-05-252728.html %}
-            </div>
-
-            <div class="row">
-                {% include_relative 2020-06-010304.html %}
-            </div>
-
-            <div class="row">
-                {% include_relative 2020-06-081011.html %}
-            </div>
-
-            <div class="row">
-                {% include_relative 2020-06-151718.html %}
-            </div>
-
             <br />
-            <br />
-
-            <div class="row faded">
-                <div class="col-12">
-                    <h2>Past Events</h2>
-                </div>
-                {% include_relative 2020-03-272829.html %}
-            </div>
-
-            <div class="row faded">
-                {% include_relative 2020-04-030405.html %}
-            </div>
-
-            <div class="row faded">
-                {% include_relative 2020-04-101112.html %}
-            </div>
-
-            <div class="row faded">
-                {% include_relative 2020-04-171819.html %}
-            </div>
-
-            <div class="row faded">
-                {% include_relative 2020-04-242526.html %}
-            </div>
-
-            <div class="row faded">
-                {% include_relative 2020-05-010203.html %}
-            </div>
-
-            <div class="row faded">
-                {% include_relative 2020-05-080910.html %}
-            </div>
         </div>
     </div>
 </main>
