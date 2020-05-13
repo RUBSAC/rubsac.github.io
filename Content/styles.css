@@ -73,8 +73,8 @@ img.fit {
     width: 100%;
 }
 
-img.rounded {
-    border-radius: 10px;
+.rounded {
+    border-radius: 1.5rem!important;
 }
 
 img.people {
@@ -85,7 +85,7 @@ img.people {
 
 section.heading-container {
     width: 100%;
-    max-width: 550px;
+    max-width: 650px;
     height: 86px;
     margin-top: 2.5em;
     margin-bottom: 5.5em;
@@ -142,7 +142,7 @@ div.title-container {
     left: 0;
     top: 0;
     width: 100%;
-    max-width: 550px;
+    max-width: 650px;
     position: absolute;
     text-align: center;
 }
